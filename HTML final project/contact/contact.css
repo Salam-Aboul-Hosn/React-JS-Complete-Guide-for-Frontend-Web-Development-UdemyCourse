@@ -23,3 +23,23 @@ body {
     margin: 0;
     background-color: #F8F8FE;
 }
+
+#forms {
+    background-color: white;
+    width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.inputs {
+    width: 85%;
+    margin-left: 15px;
+    border: transparent;
+    border-bottom: 1px solid gray;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+.subButton {
+    
+}
