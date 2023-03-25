@@ -1,0 +1,12 @@
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+#navBar {
+    text-align: right;
+}
+.list-element {
+    padding-right: 5px;
+    font-size: 13px;
+    color: rgba(0, 0, 0, 0.87); 
+}
