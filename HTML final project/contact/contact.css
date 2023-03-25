@@ -41,6 +41,7 @@ body {
     margin-bottom: 15px;
     margin-top: 35px;
     font-size: 17px;
+    outline: none;
 }
 
 #subButton {
@@ -50,4 +51,6 @@ body {
     color: white;
     border: none;
     margin-left: 115px;
+    cursor: pointer;
+
 }
