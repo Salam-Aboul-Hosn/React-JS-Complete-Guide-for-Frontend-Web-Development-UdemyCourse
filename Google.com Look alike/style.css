@@ -1,12 +1,22 @@
+
 body {
     font-family: 'Arial', sans-serif;
+    margin: 0px;
 }
 
+#dropdown-menu {
+    position: relative;
+    top: 7px;
+}
+#profile-icon {
+    position: relative;
+    top: 8px;
+}
 #navBar {
     text-align: right;
 }
 .list-element {
-    padding-right: 5px;
+    padding-right: 13px;
     font-size: 13px;
     color: rgba(0, 0, 0, 0.87); 
 }
