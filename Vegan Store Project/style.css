@@ -1,0 +1,12 @@
+/**
+All styles for the top bar
+*/
+
+li {
+    list-style: none;
+}
+
+nav,
+ul {
+    display: flex;
+}
