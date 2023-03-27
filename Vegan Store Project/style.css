@@ -56,7 +56,7 @@ header {
     background-color: greenyellow;
 }
 
-#buy-now {
+.buy-now {
     font-family: 'Poppins', sans-serif; 
     font-size: 12px;
     font-weight: 600;
@@ -429,4 +429,20 @@ final section
 }
 .left {
     text-align: left;
+}
+
+.input-style {
+    width: 90%;
+    padding: 8px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 5px;
+    outline: none;
+    font-size: 20px;
+    border-style: none;
+    border: 1px solid gray;
+    margin-bottom: 10px;
+}
+.input-style:last-of-type {
+    padding: 40px
 }
