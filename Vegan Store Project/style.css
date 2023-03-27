@@ -195,7 +195,7 @@ Styles for the vegan store section
     background-color: #f7eee2;;
 }
 
-#fresh-food {
+.fresh-food {
     color: #91ac41;
     font-size: 24px;
     font-family: 'Caveat', cursive;
@@ -213,7 +213,7 @@ Styles for the vegan store section
     margin-bottom: 0;
 
 }
-#radish-tag {
+.radish-tag {
     font-family: 'Poppins', sans-serif;
     font-size: 16px;
     font-weight: 500;
@@ -416,3 +416,17 @@ section with video and everyting else
     width: 100vw;
     margin: 0 auto;
 }  
+
+/*
+final section
+*/
+
+#last-background {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+    column-gap: 175px;
+}
+.left {
+    text-align: left;
+}
