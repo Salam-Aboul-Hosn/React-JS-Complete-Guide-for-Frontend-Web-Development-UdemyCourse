@@ -204,7 +204,7 @@ Styles for the vegan store section
     text-align: center;
 }
 
-#vegan-store {
+.vegan-store {
     font-family: 'Poppins', sans-serif;
     font-size: 44px;
     font-weight: 600;
@@ -307,3 +307,96 @@ Styles for the profile picture people
     text-align: center;
 
 }
+
+/*
+Styles for the strawberyy section
+*/
+/*
+#strawberies {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+#strawberry {
+    width: 65%;
+}
+
+#strawberry {
+    width: 100%;
+}
+
+#back {
+    background-image:url('https://edyoda.s3.ap-south-1.amazonaws.com/public/strawberry-white.png');
+    background-repeat:no-repeat;
+    background-size:cover;
+    height:100vh;
+    width:100%;
+
+}
+*/
+
+/*
+section with video and everyting else
+*/
+
+#go-grid {
+    display: grid;
+    grid-template-columns: auto auto;
+    text-align: center;
+}
+  #berry {
+   background-image:url('https://edyoda.s3.ap-south-1.amazonaws.com/public/strawberry-white.png');
+    background-repeat:no-repeat;
+    background-size:cover;
+    height:auto;
+    width:40vw;
+    display:inline-block;
+    background-position:left;
+  }
+  #straw {
+    width:60vw;
+    height:auto;
+  }
+  #str {
+    display:inline-block;
+    background-position:right;
+  }
+  #blur{
+    display:flex;
+    justify-content:stretch;
+  }
+
+  .in {
+    background-color:white;
+    font-size:16px;
+    font-weight:500;
+    border:1px solid white;
+    border-radius:4px;
+    outline:none;
+    margin:16px;
+    padding: 10px;
+  }
+  #scribe{
+    background-color:#f69dad; 
+    margin:16px;
+    border:none;
+    border-radius:2px;
+    font-size:16px;
+    font-weight:500;
+    outline:none;
+    padding: 10px;
+}
+  #scribe:hover{
+      border:1px solid #f69dad;
+      background:transparent;
+      color:#f69dad; 
+      cursor: pointer;
+  }
+  .foll{
+      margin:24px;
+      text-align: center;
+  }
+
+  #bacgkround-5 {
+      background-color: #F6FCFA;
+  } 
