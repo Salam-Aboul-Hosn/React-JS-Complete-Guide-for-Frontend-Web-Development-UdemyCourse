@@ -1,5 +1,5 @@
 /**
-All styles for the top bar
+All styles for first pag with top bar
 */
 
 body {
@@ -82,9 +82,99 @@ header {
     display: none;
     position: absolute;
     width: 9%;
-
 }
 
 #dropdown-wrapper:hover #dropdown{
     display: block;
+}
+
+
+#title{
+    background-image:url('https://edyoda.s3.ap-south-1.amazonaws.com/public/landing-background.png');
+    background-repeat:no-repeat;
+    background-size:cover;
+    height:100vh;
+    width:100%;
+    background-position:center;
+    margin:auto;
+} 
+
+#title > h1{
+    text-align:center;
+    position:absolute;
+    top:30%;
+    left:50%;
+    transform:translatex(-50%);
+    font-family:'Poppins',sans-serif;
+    font-size:48px;
+    font-weight:600;
+    letter-spacing:8.8px;
+    line-height:1.2;
+
+}
+
+  #title > p{
+    font-family:'Poppins',sans-serif;
+    font-size:28px;
+    text-align:center;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translatex(-50%);
+    letter-spacing:0.5px;
+    color:#8b8b99;  
+}
+
+/*
+Styles for the next section with grid and icons
+*/
+
+#grid-icons {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+#cut {
+    background-color: #5acda6;
+    padding: 65px;
+}
+#brush {
+    background-color: #91ac41;
+    padding: 65px;
+
+}
+#bag {
+    background-color: #e4b476;
+    padding: 65px;
+
+}
+
+#face {
+    background-color: #f69dad;
+    padding: 65px;
+
+}
+
+.header-label {
+    font-family: 'Poppins', sans-serif; 
+    font-weight: 600;
+    font-size: 24px;
+    color: white;
+    text-align: center;
+}
+
+.step-description {
+    font-family: 'Poppins', sans-serif; 
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    line-height: 1.6;
+    color: white;
+    text-align: center;
+
+}
+
+.icons {
+    font-size: 96px;
+    width: 96px;
+    color: white;
+    padding-top: 65px;
 }
