@@ -136,21 +136,29 @@ Styles for the next section with grid and icons
 #cut {
     background-color: #5acda6;
     padding: 65px;
+    display: inline-block;
+    text-align: center;
 }
 #brush {
     background-color: #91ac41;
     padding: 65px;
+    display: inline-block;
+    text-align: center;
 
 }
 #bag {
     background-color: #e4b476;
     padding: 65px;
+    display: inline-block;
+    text-align: center;
 
 }
 
 #face {
     background-color: #f69dad;
     padding: 65px;
+    display: inline-block;
+    text-align: center;
 
 }
 
@@ -178,3 +186,7 @@ Styles for the next section with grid and icons
     color: white;
     padding-top: 65px;
 }
+
+/*
+Styles for the vegan store section
+*/
