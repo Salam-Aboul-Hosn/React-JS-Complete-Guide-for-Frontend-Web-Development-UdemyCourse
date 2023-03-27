@@ -405,3 +405,14 @@ section with video and everyting else
   .new {
       margin-top: 20px;
   }
+  /*
+  Video section
+  */
+ #vid {
+     margin: 20px;
+  }
+
+.video {
+    width: 100vw;
+    margin: 0 auto;
+}  
