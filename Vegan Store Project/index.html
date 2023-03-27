@@ -5,23 +5,41 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
     <title>Vegan Store</title>
 </head>
 <body>
     <header>
-        <navbar>
+        <navbar id="navbar">
+            <img id="logo" src="https://mobirise.com/extensions/organicamp/assets/images/logo1.jpg" alt ="tree logo" />
             <nav>
-                <img src="https://mobirise.com/extensions/organicamp/assets/images/logo1.jpg" alt ="tree logo" />
-                <ul id="navbar-right">
-                    <li>Demo Pages</li>
-                    <li>Watch Video</li>
-                    <li>Blocks</li>
-                    <button>
-                        <li>Buy Now</li>
-                    </button>
-                </ul>
+                <div id="dropdown-wrapper">
+                    <span id="demo"class="menu-items">Demo Pages</span>
+                    <div id="dropdown">
+                        <span class="drop-item">Menu item 1</span><hr>
+                        <span class="drop-item">Menu item 1</span><hr>
+                        <span class="drop-item">Menu item 1</span>
+                    </div>
+                </div>
+                <select class="arrow"></select>
+                <span class="menu-items">Watch Video</span>
+                <span class="menu-items">Blocks</span>
+                <select class="arrow"></select>
+                <button id="buy-now">BUY NOW</button>
             </nav>
         </navbar>
+        <!--<div id="dropdown-wrapper">
+            <div id="dropdown">
+                <span class="drop-item">Menu item 1</span><hr>
+                <span class="drop-item">Menu item 1</span><hr>
+                <span class="drop-item">Menu item 1</span>
+            </div>
+        </div>-->
     </header>
+    <main>
+        <img src="https://edyoda.s3.ap-south-1.amazonaws.com/public/landing-background.png" alt="backgroun-image" />
+    </main>
 </body>
 </html>
