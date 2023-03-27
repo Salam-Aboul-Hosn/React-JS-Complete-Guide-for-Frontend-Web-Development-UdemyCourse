@@ -260,3 +260,11 @@ Styles for the vegan store section
     display: flex;
     justify-content: center;
 }
+
+/*
+Styles for the profile picture people
+*/
+#grid-profile {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
