@@ -349,7 +349,7 @@ section with video and everyting else
     background-repeat:no-repeat;
     background-size:cover;
     height:auto;
-    width:40vw;
+    width: 38vw;
     display:inline-block;
     background-position:left;
   }
@@ -397,6 +397,11 @@ section with video and everyting else
       text-align: center;
   }
 
-  #bacgkround-5 {
+  #background-5 {
       background-color: #F6FCFA;
+      display: grid;
+      grid-template-columns: auto auto auto auto;
   } 
+  .new {
+      margin-top: 20px;
+  }
