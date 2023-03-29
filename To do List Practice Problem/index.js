@@ -5,10 +5,6 @@ let input =  document.getElementById("search-bar")
 
 let value;
 input.addEventListener("input", function(event) {
-    let keyCode = event.key;
-    if(keyCode ==="s") {
-        alert("Please Enter A Valid TODO Item")
-    }
     value = event.target.value;
     console.log(value)
 })
