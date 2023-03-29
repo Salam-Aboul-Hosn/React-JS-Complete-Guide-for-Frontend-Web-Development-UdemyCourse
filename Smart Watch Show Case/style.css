@@ -99,3 +99,11 @@ header {
     font-weight: bold;
     border-radius: 5px;
 }
+
+.show{
+    display: block;
+}
+
+.hide{
+    display: none;
+}
