@@ -56,3 +56,46 @@ header {
     height: 50px;
     border-radius: 10px;
 }
+
+#black:hover {
+    cursor: pointer;
+}
+
+#red:hover {
+    cursor: pointer;
+}
+
+#blue:hover {
+    cursor: pointer;
+}
+
+#pink:hover {
+    cursor: pointer;
+}
+
+.two-button {
+    background-color: #E1E0E1;
+    padding: 13px;
+    margin-right: 7px;
+    outline: none;
+    border-radius: 8px;
+    box-shadow: none;
+    border: none;
+    font-weight: bold;
+}
+
+.two-button:hover {
+    cursor: pointer;
+}
+
+#buy {
+    display: block;
+    margin-top: 30px;
+    padding: 15px;
+    width: 130px;
+    background-color: #F29920;
+    box-shadow: none;
+    border: none;
+    font-weight: bold;
+    border-radius: 5px;
+}

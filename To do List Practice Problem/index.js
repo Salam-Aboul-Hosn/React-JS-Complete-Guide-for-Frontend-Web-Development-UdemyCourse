@@ -8,7 +8,7 @@ input.addEventListener("input", function(event) {
     value = event.target.value;
 })
 
-input.addEventListener("keyup", function(event) {
+input.addEventListener("keydown", function(event) {
     if(event.key === "Enter") {
         addtoList()
     }
