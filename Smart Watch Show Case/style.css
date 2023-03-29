@@ -6,3 +6,11 @@ header {
     justify-content: center;
     background-color: #283548;
 }
+
+#grid-main {
+    display: grid;
+    grid-template-columns: 30% auto;
+    column-gap: 50px;
+    margin-left: 10%;
+    margin-top: 5%;
+}
