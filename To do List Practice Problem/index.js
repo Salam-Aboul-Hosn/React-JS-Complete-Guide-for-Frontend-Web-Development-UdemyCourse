@@ -6,9 +6,15 @@ let input =  document.getElementById("search-bar")
 let value;
 input.addEventListener("input", function(event) {
     value = event.target.value;
-    console.log(value)
 })
-addButton.addEventListener("click", function() {
+
+input.addEventListener("keyup", function(event) {
+    if(event.key === "Enter") {
+        addtoList()
+    }
+})
+
+function addtoList() {
     let newListElement = document.createElement("li")
     let textNode = document.createTextNode(value)
     if(typeof(value) === "undefined" || value ==="") {
@@ -19,5 +25,6 @@ addButton.addEventListener("click", function() {
     list.appendChild(newListElement)
 
     input.value = "";
-})
+}
+addButton.addEventListener("click", addtoList)
 
