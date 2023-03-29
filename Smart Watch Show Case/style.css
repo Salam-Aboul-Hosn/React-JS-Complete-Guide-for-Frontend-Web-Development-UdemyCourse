@@ -107,3 +107,27 @@ header {
 .hide{
     display: none;
 }
+
+#time-text {
+    position: relative;
+    bottom: 53%;
+    left: 7%;
+    text-align: center;
+    color: white;
+    font-size: 25px;
+}
+#heart-img {
+    position: relative;
+    bottom: 53%;
+    left: 45%;
+    text-align: center;
+}
+#heart-text {
+    position: relative;
+    bottom: 53%;
+    left: 1%;
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    margin-top: 10px;
+}
