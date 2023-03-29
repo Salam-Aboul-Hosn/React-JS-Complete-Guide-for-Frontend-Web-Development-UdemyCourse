@@ -14,7 +14,7 @@ let seven = document.getElementById("seven")
 let nine = document.getElementById("nine")
 let minus = document.getElementById("minus")
 let multiply = document.getElementById("multiply")
-let divide = document.getElementById("multiply")
+let divide = document.getElementById("divide")
 
 
 
@@ -40,6 +40,8 @@ buttons.forEach(button => {
                 newListElement.appendChild(textNode)
                 //console.log(newListElement)
                 whiteSpace.appendChild(newListElement)
+                newListElement.style.padding = "10px";
+                newListElement.style.fontSize = "25px";
                 //console.log(whiteSpace)
                 inputString =""
             //})
@@ -63,6 +65,8 @@ buttons.forEach(button => {
             while (parentElement.firstChild) {
                 parentElement.removeChild(parentElement.firstChild)
             }
+            inputString =""
+
         }
     })
 })
