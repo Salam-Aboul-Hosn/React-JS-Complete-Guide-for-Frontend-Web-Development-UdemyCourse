@@ -15,6 +15,8 @@ let nine = document.getElementById("nine")
 let minus = document.getElementById("minus")
 let multiply = document.getElementById("multiply")
 let divide = document.getElementById("divide")
+let zero = document.getElementById("zero")
+
 
 
 
@@ -27,51 +29,45 @@ let inputString = ""
 buttons.forEach(button => {
     button.addEventListener("click", function(event) {
         let value = event.target.textContent;
-        console.log(value)
         if(value === "=") {
-            console.log(value)
-            //equal.addEventListener('click',function(){
-                console.log(value)
-                inputString=eval(inputString)
-                let newListElement = document.createElement("span")
-                let textNode = document.createTextNode(inputString)
-                //console.log(newListElement)
-                console.log(textNode)
-                newListElement.appendChild(textNode)
-                //console.log(newListElement)
-                whiteSpace.appendChild(newListElement)
+            inputString=eval(inputString)
+            let newListElement = document.createElement("span")
+            let textNode = document.createTextNode(inputString)
+            removeAll()
+            newListElement.appendChild(textNode)
+            whiteSpace.appendChild(newListElement)
+            newListElement.style.fontSize = "25px";
+            if(value ==="+" || value === "-" || value === "*" || value === "/") {
                 newListElement.style.padding = "10px";
-                newListElement.style.fontSize = "25px";
-                //console.log(whiteSpace)
-                inputString =""
-            //})
-            //let newListElement = document.createElement("span")
-           // let answer = calculate(value, value)
-           // let textNode = document.createTextNode(answer)
-           // newListElement.appendChild(textNode)
-            //whiteSpace.appendChild(newListElement)
+            }
+            inputString =""
             
-
         } else if(value !== "C") {
             let newListElement = document.createElement("span")
             let textNode = document.createTextNode(value)
             newListElement.appendChild(textNode)
             whiteSpace.appendChild(newListElement)
-            newListElement.style.padding = "10px";
             newListElement.style.fontSize = "25px";
-        } else {
-            let parentElement = document.getElementById("white-space");
-            console.log(parentElement)
-            while (parentElement.firstChild) {
-                parentElement.removeChild(parentElement.firstChild)
+            if(value ==="+" || value === "-" || value === "*" || value === "/") {
+                newListElement.style.padding = "10px";
             }
-            inputString =""
-
+        } else {
+            removeAll()
         }
     })
 })
 
+function removeAll() {
+    let parentElement = document.getElementById("white-space");
+        while (parentElement.firstChild) {
+            parentElement.removeChild(parentElement.firstChild)
+        }
+    inputString =""
+}
 
+zero.addEventListener('click',function(){
+    inputString+='0'
+})
 seven.addEventListener('click',function(){
     inputString+='7'
 })
