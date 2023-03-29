@@ -17,7 +17,7 @@ addButton.addEventListener("click", function() {
     }
     newListElement.appendChild(textNode)
     list.appendChild(newListElement)
-    document.getElementById("search-bar").value = "";
 
+    input.value = "";
 })
 
