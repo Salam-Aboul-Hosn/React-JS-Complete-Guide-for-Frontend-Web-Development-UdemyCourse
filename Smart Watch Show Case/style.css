@@ -16,6 +16,19 @@ header {
     margin-top: 5%;
 }
 
+@media screen and (max-width: 320px) {
+    #grid-main {
+        display: block;
+        margin-left: 0;
+    }
+    .hide {
+        display: none;
+    }
+    #img {
+        width: 320px;
+    }
+
+}
 #description {
     color: #8b8b99;
 }
@@ -106,7 +119,7 @@ header {
 
 .hide{
     display: none;
-}s
+}
 
 #time-text {
     position: relative;
